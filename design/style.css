@@ -1,13 +1,4 @@
-* { margin: 0; padding: 0; }
+/*
 
-#wrap { width: 960px; margin: 0 auto; }
-
-#header { height: 100px; background-color: #ff0000; }
-
-#footer { clear: both; height: 30px; background-color: #ffff00; }
-
-#content {  }
-
-#main { float: left; width: 60% }
-
-#sidebar { float: right; width: 30% }
+author: Jelle van der Zwaag
+*/
