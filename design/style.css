@@ -2,3 +2,16 @@
 
 author: Jelle van der Zwaag
 */
+
+@import "css/reset.css";
+@import "css/960_12_col.css";
+
+body {
+	background-color: #eee;
+	}
+	
+/* STRUCTURE */
+
+
+
+
