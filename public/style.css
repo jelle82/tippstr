@@ -1,0 +1,244 @@
+/*
+
+author: Jelle van der Zwaag
+
+colours:
+
+	#2c89a0 : blue;
+	#008080 : dark blue;
+	#ccff00 : fluor green
+*/
+
+@import "css/reset.css";
+@import "css/960_12_col.css";
+
+html {
+	font : 0.672em/1.5 Junction, sans-serif;
+	color: #333;
+}
+
+body {
+	background-color: #eee;
+	font-size: 1.6em;
+	}
+	
+/* STRUCTURE */
+
+header {
+	height: 150px;
+	background:  #2c89a0;
+	margin-bottom: 20px;
+	}
+	
+#login-header {
+	height: 30px;
+	background: #008080;
+	text-align: right;
+	line-height: 35px; /*to get text centered*/
+	}
+
+
+header hgroup {
+	clear: both;
+	height: 90px;
+	display: inline;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 940px;
+	} 
+
+nav {
+	clear: both;
+	height: 30px;
+	background: #ccff00;
+	line-height: 35px; /*to get text centered*/
+	}
+	
+#content {
+	overflow: hidden; /* so to wrap this div about the children inside */
+	margin-bottom: 20px;
+	
+}
+	
+.sidebar {
+	border : 2px #ccff00 solid;
+	padding : 6px;
+	background: #fff;
+	 /* grid_4 */
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 284px;
+}
+	
+.main {
+	border : 2px #ccff00 solid;
+	padding : 6px;
+	background: #fff;
+	/* grid_8 */
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 604px;	
+	}
+	
+footer {
+	height: 40px;
+	background: #008080;
+	clear: both;
+	line-height: 40px;
+	display: inline;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 940px;
+}
+
+/* ANCHORS */
+
+/* general */
+
+a, a:visited {
+	text-decoration: underline;
+	color: #2c89a0;
+}
+
+header a, header a:visited {
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+	
+}
+
+a:active {
+	text-decoration: none;
+}
+
+/* specific */
+
+#login-header a {
+	color: #fff;
+	}
+	
+nav a {
+	color: #000;
+	margin-left: 12px;
+	font-weight: bold;
+	} 
+	
+/* OTHER ELEMENTS */
+
+h1 {
+	font-size: 1.8em;
+}
+
+#content h1 {
+	margin-bottom: 12px;
+}
+
+h2 {
+	font-size: 1.4em;	
+}
+
+header h2 {
+	font-size: 1em;
+	}
+
+#content h2 {
+	margin: 22px 0 12px 0;
+}
+
+ul {
+	margin-left: 25px;
+	}
+	
+.button {
+	border: #2c89a0 solid 1px;
+	color: #fff;
+	background: #2c89a0;
+	font-size: 1.2em;
+	}
+
+.button:hover {
+	color: #2c89a0;
+	background: #fff;
+	}
+
+/* MAIN */
+
+.sidebar h1 {
+	display: block;
+	background-color: #ccff00;
+	color: #fff;
+	margin: -6px;
+	padding: 6px;
+	height: 24px;
+	}
+	
+.main h1 {
+	display: block;
+	background-color: #ccff00;
+	color: #fff;
+	margin: -6px;
+	padding: 6px;
+	height: 24px;
+	}
+	
+#content .main h2 {
+	font-size: 1em;
+	margin:  8px 0px;
+	clear: both;
+	}
+
+.main ul {
+	margin-left: 0;
+	list-style-type: none;
+	margin-bottom: 32px;
+}
+
+.main ul li {
+	margin-bottom: 6px;
+}
+	
+.main span {
+	display: inline-block;
+	background-color: red;
+	}
+
+.main .time {
+	width: 130px;
+}
+
+.main .teams {
+	width: 250px;
+	
+	}
+	
+.main .prediction {
+	text-align: center;
+	width: 100px;
+}
+
+.main .score {
+	text-align: center;
+	width: 70px;
+	}
+	
+.main .points {
+	text-align: center;
+	width: 35px;
+}
+
+.main .button {
+	margin-bottom: 25px;
+}
+	
+
+
