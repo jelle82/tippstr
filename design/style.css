@@ -129,6 +129,8 @@ a:active {
 	
 nav a {
 	color: #000;
+	margin-left: 12px;
+	font-weight: bold;
 	} 
 	
 /* OTHER ELEMENTS */
@@ -156,6 +158,18 @@ header h2 {
 ul {
 	margin-left: 25px;
 	}
+	
+.button {
+	border: #2c89a0 solid 1px;
+	color: #fff;
+	background: #2c89a0;
+	font-size: 1.2em;
+	}
+
+.button:hover {
+	color: #2c89a0;
+	background: #fff;
+	}
 
 /* MAIN */
 
@@ -176,4 +190,55 @@ ul {
 	padding: 6px;
 	height: 24px;
 	}
+	
+#content .main h2 {
+	font-size: 1em;
+	margin:  8px 0px;
+	clear: both;
+	}
+
+.main ul {
+	margin-left: 0;
+	list-style-type: none;
+	margin-bottom: 32px;
+}
+
+.main ul li {
+	margin-bottom: 6px;
+}
+	
+.main span {
+	display: inline-block;
+	}
+
+.main .time {
+	width: 140px;
+}
+
+.main .teams {
+	width: 250px;
+	
+	}
+	
+.main .prediction {
+	text-align: center;
+	width: 80px;
+}
+
+.main .score {
+	text-align: center;
+	width: 60px;
+	}
+	
+.main .points {
+	text-align: center;
+	width: 55px;
+}
+
+.main .button {
+	float: right;
+	margin-bottom: 25px;
+}
+	
+
 
